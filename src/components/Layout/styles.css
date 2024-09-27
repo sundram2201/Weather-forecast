@@ -1,0 +1,97 @@
+.forecast-layout {
+  background-image: url(../../assets/forecast-bg.png);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2rem;
+  color: white;
+}
+.custom-search input {
+  width: 100%;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.custom-search input::placeholder {
+  color: white;
+}
+.custom-search input:focus-visible {
+  outline: none;
+}
+
+.search-box {
+  width: 40%;
+  margin: 0 auto 2rem auto;
+  position: relative;
+}
+
+.search-box ul {
+  list-style-type: none;
+  text-align: start;
+  background: rgba(255, 255, 255, 1);
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.loading div {
+  width: 1rem;
+  height: 1rem;
+  border-width: 0.15rem;
+}
+
+
+/* Today forecast */
+
+.t-fore-container {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+/* CelciusFerenheit */
+
+/* From Uiverse.io by r7chardgh */ 
+/* The switch - the box around the slider */
+.switch {
+  vertical-align: middle;
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 2.5em;
+  height: 1.5em;
+  user-select: none;
+}
+
+/* Hide default HTML checkbox */
+.switch .cb {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+
+.CF-btn {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 5px 10px;
+  
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+
+.CF-btn:hover {
+
+  background: rgba(255, 255, 255, 0.45);
+}
